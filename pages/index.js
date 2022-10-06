@@ -80,9 +80,9 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Justine is currently taking Bachelor Bachelor of Technical-Vocational Teacher Education major 
-          in Computer Programming technology a 4 year course at Universidad de Manila. Being exposed to 
-          technology since little, he just can&apos;t stop thinking of a work to do and develop something new 
-          that can help him on the path he chosen.
+          in Computer Programming Technology a 4 year course at Universidad de Manila. Being exposed to 
+          technology since little, he just can&apos;t stop thinking of a work to do and develop something
+          different that can help him on the path he chosen.
         </Paragraph>
       </Section>
 
@@ -92,11 +92,19 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2001</BioYear>
-          Born in San Jose Del Monte, Bulacan.
+          Born in San Jose Del Monte, Bulacan
+        </BioSection>
+        <BioSection>
+          <BioYear>2011</BioYear>
+          Graduated Elementary at Navotas Adventist Elementary School
+        </BioSection>
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Graduated Junior High at Governor Pascual College
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Graduated TVL-ICT Senior High School at Arellano Univeristy 
+          Graduated TVL-ICT Senior High School at Arellano Univeristy
         </BioSection>
       </Section>
 
