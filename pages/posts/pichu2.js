@@ -58,8 +58,8 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
-      <WorkImage src="/images/works/pichu2_eyecatch.png" alt="Pichu*Pichu" />
-      <WorkImage src="/images/works/pichu2_01.png" alt="Pichu*Pichu" />
+      <WorkImage src="/images/posts/pichu2_eyecatch.png" alt="Pichu*Pichu" />
+      <WorkImage src="/images/posts/pichu2_01.png" alt="Pichu*Pichu" />
     </Container>
   </Layout>
 )
