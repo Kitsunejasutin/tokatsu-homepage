@@ -3,7 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbplkdhs01 from '../public/images/post/LKDHS_00.jpg'
+import thumbplkdhs01 from '../public/images/post/LKDHS_00.png'
+import thumbplkdhs04 from '../public/images/post/LKDHS_04.png'
 
 const Posts = () => (
   <Layout title="Post">
@@ -12,16 +13,26 @@ const Posts = () => (
         Field Study 1 and its activities
       </Heading>
 
-      <Section delay={0.2}>
+      <Section>
         <Divider my={6} />
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
+        <Section>
           <WorkGridItem id="September-26_2022" thumbnail={thumbplkdhs01} title="September 26, 2022">
-            Blog Post
+            Activity Post
           </WorkGridItem>
         </Section>
+        <Section>
+          <WorkGridItem
+            id="October-3_2022"
+            title="October 3, 2022"
+            thumbnail={thumbplkdhs04}
+          >
+            Activity Post
+          </WorkGridItem>
+        </Section>
+
       </SimpleGrid>
     </Container>
   </Layout>
