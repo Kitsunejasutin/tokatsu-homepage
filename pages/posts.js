@@ -9,7 +9,7 @@ const Posts = () => (
   <Layout title="Post">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Post
+        Field Study 1 and its activities
       </Heading>
 
       <Section delay={0.2}>
@@ -21,8 +21,8 @@ const Posts = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbplaceholder} title="Placeholder Title">
-            Placeholder subtitle
+          <WorkGridItem id="September-26_2022" thumbnail={thumbplaceholder} title="September 26, 2022">
+            Blog Post
           </WorkGridItem>
         </Section>
       </SimpleGrid>
