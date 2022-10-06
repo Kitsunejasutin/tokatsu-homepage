@@ -81,7 +81,7 @@ const Home = () => (
         <Paragraph>
           Justine is currently taking Bachelor Bachelor of Technical-Vocational Teacher Education major 
           in Computer Programming technology a 4 year course at Universidad de Manila. Being exposed to 
-          technology since little, he just can't stop thinking of a work to do and develop something new 
+          technology since little, he just can&apos;t stop thinking of a work to do and develop something new 
           that can help him on the path he chosen.
         </Paragraph>
       </Section>
