@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbplkdhs01 from '../public/images/post/LKDHS_00.png'
 import thumbplkdhs04 from '../public/images/post/LKDHS_04.png'
+import thumbplkdhs06 from '../public/images/post/LKDHS_06.jpg'
 
 const Posts = () => (
   <Layout title="Post">
@@ -32,7 +33,14 @@ const Posts = () => (
             Activity Post
           </WorkGridItem>
         </Section>
+      </SimpleGrid>
 
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="October-10_2022" thumbnail={thumbplkdhs06} title="October 10, 2022">
+            Activity Post
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
