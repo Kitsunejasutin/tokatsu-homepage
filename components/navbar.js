@@ -74,6 +74,9 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
+          <LinkItem href="/documents" path={path}>
+            Documents
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/Kitsunejasutin/tokatsu-homepage"
@@ -105,6 +108,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
+                </NextLink>
+                <NextLink href="/documents" passHref>
+                  <MenuItem as={Link}>Documents</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
