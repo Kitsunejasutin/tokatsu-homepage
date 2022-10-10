@@ -2,9 +2,11 @@ import {
   Container,
   Badge,
   Heading,
-  Center
+  Center,
+  Divider
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
+import Section from '../../components/section'
 import { Title, WorkImage} from '../../components/work'
 import P from '../../components/paragraph'
 
@@ -35,8 +37,22 @@ const Work = () => (
       </Heading>
 
       <WorkImage src="/images/post/LKDHS_01.jpg" alt="Core Values" />
+      <Heading as="h4" fontSize={12} my={3}>
+        <Center>LDHS Core Values[1/2]</Center>
+      </Heading>
+      <Section>
+        <Divider my={6} />
+      </Section>
+
       <WorkImage src="/images/post/LKDHS_02.jpg" alt="Trash Can" />
+      <Section>
+        <Divider my={6} />
+      </Section>
+      
       <WorkImage src="/images/post/LKDHS_03.jpg" alt="Mission, Vission, Mandate" />
+      <Heading as="h4" fontSize={12} my={3}>
+        <Center>School Mission, Vission, Mandate</Center>
+      </Heading>
     </Container>
   </Layout>
 )
