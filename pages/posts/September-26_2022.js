@@ -15,18 +15,17 @@ const Work = () => (
         First Day of Deployment <Badge>September 26, 2022</Badge>
       </Title>
       <P>
-        First day at Lakandula High school where we are got 
-        introduced to head teacher of ICT. With the introduction
-        , we aslo got our own schedule to specific teachers.
-        I&apos;ll be oberserving Grade 9 students witch is being 
-        held by <b>Ms. Jacquilyn Ramos</b>, a ICT Teacher. 
+        First day at Lakandula High school, where we got 
+        introduced to the head teacher of ICT. With the 
+        introduction, we also got our own schedule for specific
+        teachers. I&apos;ll be observing Grade 9 students, which is 
+        being held by <b>Ms. Jacquilyn Ramos</b>, an ICT Teacher. 
       </P>
       <P>        
-        Unfortunately we didn&apos;t met our proctors as the school
-        is currently having their exams which leads the 
-        teachers to be out of school. We are assigned to
-        report back on Monday <b>October 3</b> to meet and
-        greet out proctors.
+      Unfortunately, I didn&apos;t meet our coordinators because 
+      the school is currently having their own activities, which 
+      leads to some teachers being out of school. We are assigned 
+      to report back on Monday October 3 to meet and greet our coordinators.
       </P>
 
 
