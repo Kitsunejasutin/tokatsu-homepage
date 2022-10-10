@@ -51,7 +51,7 @@ const Work = () => (
         <Divider my={6} />
       </Section>
 
-      <WorkImage src="/images/post/LKDHS_18.jpg" alt="environment" />
+      <WorkImage src="/images/post/LKDHS_16.jpg" alt="environment" />
       <Heading as="h4" fontSize={12} my={3}>
         <Center>Computer Lab Environment [1/2]</Center>
       </Heading>
