@@ -24,7 +24,8 @@ const Posts = () => (
             Activity Post
           </WorkGridItem>
         </Section>
-        <Section>
+
+        <Section delay={0.2}>
           <WorkGridItem
             id="October-3_2022"
             title="October 3, 2022"
@@ -36,11 +37,12 @@ const Posts = () => (
       </SimpleGrid>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+        <Section delay={0.3}>
           <WorkGridItem id="October-10_2022" thumbnail={thumbplkdhs06} title="October 10, 2022">
             Activity Post
           </WorkGridItem>
         </Section>
+
       </SimpleGrid>
     </Container>
   </Layout>
