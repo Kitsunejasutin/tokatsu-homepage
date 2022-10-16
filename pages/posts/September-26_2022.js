@@ -40,6 +40,10 @@ const Work = () => (
       <Heading as="h4" fontSize={12} my={3}>
         <Center>LDHS Core Values[1/2]</Center>
       </Heading>
+      <WorkImage src="/images/post/LKDHS_26.jpg" alt="Core Values" />
+      <Heading as="h4" fontSize={12} my={3}>
+        <Center>LDHS Core Values[2/2]</Center>
+      </Heading>
       <Section>
         <Divider my={6} />
       </Section>
