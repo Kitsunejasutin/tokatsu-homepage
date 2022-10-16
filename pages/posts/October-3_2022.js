@@ -11,7 +11,7 @@ import { Title, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="September 26, 2022">
+  <Layout title="October 3, 2022">
     <Container>
       <Title>
         Second Day of Deployment<Badge>October 3, 2022</Badge>
