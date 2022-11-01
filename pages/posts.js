@@ -14,7 +14,7 @@ const Posts = () => (
   <Layout title="Post">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Field Study 1 and its activities
+        Field Study 1 Experience
       </Heading>
 
       <Section>

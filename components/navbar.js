@@ -75,7 +75,7 @@ const Navbar = props => {
             Posts
           </LinkItem>
           <LinkItem href="/documents" path={path}>
-            Documents
+            FS 1 Activities
           </LinkItem>
           <LinkItem
             target="_blank"

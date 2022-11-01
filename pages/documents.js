@@ -14,7 +14,7 @@ const Documents = () => (
   <Layout title="Documents">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-          Field Study Documents Activties
+          Field Study 1 Activties
       </Heading>
 
       <Section>
