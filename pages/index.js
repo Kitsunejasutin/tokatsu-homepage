@@ -29,6 +29,7 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
+      <Section></Section>
       <Box
         borderRadius="lg"
         mb={6}
