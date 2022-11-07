@@ -10,6 +10,7 @@ import thumbplkdhs18 from '../public/images/post/LKDHS_18.jpg'
 import thumbplkdhs23 from '../public/images/post/LKDHS_23.jpg'
 import thumbplkdhs27 from '../public/images/post/LKDHS_27.jpg'
 import thumbplkdhs46 from '../public/images/post/LKDHS_46.jpg'
+import thumbplkdhs56 from '../public/images/post/LKDHS_56.jpg'
 
 const Posts = () => (
   <Layout title="Post">
@@ -77,6 +78,11 @@ const Posts = () => (
           </WorkGridItem>
         </Section>
 
+        <Section delay={0.5}>
+          <WorkGridItem id="October-21_2022" thumbnail={thumbplkdhs56} title="October 21, 2022">
+            Activity Post
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
