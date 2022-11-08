@@ -153,9 +153,11 @@ const Document = () => (
       <p>
         <Center>Library</Center>
       </p>
-      <WorkImage src="/images/post/LKDHS_25.jpg" alt="Picture" />
+      <WorkImage src="/images/post/LKDHS_63.jpg" alt="Picture" />
       <P>
-        Clean yaro
+        I wasn&apos;t able to enter their Library but I was able to peek inside of it
+        and found different books that contains different books for different main
+        subjects.
       </P>
       <Section>
         <Divider my={6} />
